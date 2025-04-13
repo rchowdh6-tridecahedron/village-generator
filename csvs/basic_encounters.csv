@@ -1,9 +1,9 @@
-name,description,enemy_rule,villager_rule,has_boss,twist_roll,extra_notes
-Defend the Miller’s House,Enemies are trying to burn down the mill!,Spawn 1d4 standard enemies,Spawn 1d2 villagers,FALSE,1d1,"If any enemy reaches the door, the house starts burning"
+title,description,enemy_rule,villager_rule,has_boss,plot_twists,extra_notes
+Defend the Millerï¿½s House,Enemies are trying to burn down the mill!,Spawn 1d4 standard enemies,Spawn 1d2 villagers,FALSE,1d1,"If any enemy reaches the door, the house starts burning"
 Save the Chapel,Enemies are smashing sacred relics and attacking nuns!,Spawn 1d4+1 standard enemies,Spawn 1d4 villagers,FALSE,1d1,"If 2 relics are destroyed, morale drops"
 Protect the Livestock,Raiders are stealing or slaughtering the animals.,Spawn 1d3 standard enemies,Spawn 1 villager,FALSE,1d1,Each enemy that escapes reduces village resources
 Hold the North Fields,Enemies are setting fire to the crops!,Spawn 1d6 standard enemies,No villagers,FALSE,1d1,1d2 fields burn per round if not stopped
-Rescue the Trapped Family,A house has collapsed — enemies are closing in!,Spawn 1d3 standard enemies,Spawn 1 trapped villager,FALSE,1d1,The villager must be carried to safety
+Rescue the Trapped Family,A house has collapsed ï¿½ enemies are closing in!,Spawn 1d3 standard enemies,Spawn 1 trapped villager,FALSE,1d1,The villager must be carried to safety
 Stop the Warhorn,An enemy is about to sound a warhorn!,Spawn 1 boss enemy,No villagers,TRUE,1d2,"If not stopped in 3 rounds, spawn 1d4 standard enemies next encounter"
 Evacuate the Schoolhouse,Children are hiding in the school!,Spawn 1d4 standard enemies,Spawn 1d4 villagers,FALSE,1d1,"Each round, 1 enemy gets closer to the children"
 Save the Fields,Enemies are trampling the crops!,Spawn 1d4 standard enemies,Spawn 1 villager,FALSE,1d1,"If not defeated, enemies gain advantage in next encounter"
