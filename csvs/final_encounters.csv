@@ -1,0 +1,7 @@
+name,description,enemy_rule,villager_rule,has_boss,twist_roll,extra_notes
+Final Hold at the Church,The village makes its last stand at the church.,Spawn 1 boss enemy and 1d1 standard enemies,Spawn 1d4 villagers,TRUE,1d2,This is the final encounter — victory or death
+Boss at the Gates,The village gates are breached by a monstrous leader.,Spawn 1 boss enemy and 1d2 standard enemies,Spawn 1 villager defending the gate,TRUE,1d2,"If the gate is destroyed, enemies pour in — automatic loss"
+Burning of the Mill,A boss arrives to torch the mill and crush morale.,Spawn 1 boss enemy and 1d2 standard enemies,Spawn 1d2 villagers trapped inside,TRUE,1d2,"Each round the mill takes damage — if destroyed, future runs start at disadvantage"
+Fall of the Chapel,The enemy seeks to defile the heart of the village.,Spawn 1 boss enemy and 1d3 standard enemies,Spawn 1d3 villagers inside praying,TRUE,1d2,"If all villagers die, the party suffers a major penalty"
+Slay the Warchief,The enemy leader enters the fray!,Spawn 1 boss enemy,No villagers,TRUE,1d1,Defeating the boss ends the invasion — party is victorious
+Protect the Healers,The only healers in town are under siege.,Spawn 1 boss enemy and 1d3 standard enemies,Spawn 1d2 villagers (healers),TRUE,1d2,"If the healers die, no healing is available during the final wave"

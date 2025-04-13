@@ -1,0 +1,19 @@
+name,attribute,dice,damage_type,alt_dice,alt_damage_type,Special
+Pitchfork,strength,1d8,piercing,,,
+Sickle,strength,1d6,slashing,,,
+Butcher Knife,strength,1d6,slashing,,,
+Bread Peel,strength,1d4,bludgeoning,,,
+Rolling Pin,strength,1d6,bludgeoning,,,
+Fishing Spear,strength,1d8,piercing,1d6,bludgeoning,
+Hatchet,strength,1d6,slashing,,,
+Wood Axe,strength,1d10,slashing,,,
+Slingshot,agility,1d4,bludgeoning,,,
+Hunting Bow,agility,1d8,piercing,1d4,bludgeoning,20 Arrows
+Rusty Sword,strength,1d8,slashing,,,
+Tanners Hook,strength,1d6,piercing,,,
+Torch,strength,1d4,bludgeoning,1d4,fire,roll 1d20 to light on fire. Deals bonus damage
+Fire Poker,strength,1d6,bludgeoning,,,
+Hoe,strength,1d6,slashing,,,
+Shovel,strength,1d6,bludgeoning,,,
+Worn Frying Pan,strength,1d6,bludgeoning,,,
+Carving Knife,agility,1d4,slashing,,,

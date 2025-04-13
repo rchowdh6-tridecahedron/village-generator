@@ -1,0 +1,21 @@
+class_name,weight,strength,agility,constitution,intelligence,wisdom,perception,class_hint,base_health
+Farmer,6,1,0,1,0,0,0,Fighter,10
+Stable Hand,3,1,1,1,0,0,1,Ranger,9
+Miller,2,1,0,1,0,0,0,Fighter,9
+Priest,1,-1,-1,0,1,2,1,Cleric,8
+Nun,2,-1,-1,0,1,1,1,Cleric,8
+Hunter,2,1,2,0,0,1,2,Ranger,9
+Fisher,3,0,1,0,0,1,2,Rogue,8
+Blacksmith,2,2,-1,2,-1,-1,0,Fighter,10
+Woodcutter,3,2,0,1,-1,0,0,Barbarian,10
+Herbalist,1,-1,0,0,1,2,1,Druid,8
+Baker,2,0,0,1,0,0,0,Fighter,9
+Cobbler,1,0,0,0,1,1,1,Flex,8
+Shepard,2,0,1,0,0,1,2,Druid,9
+Chandler,1,-1,0,0,1,1,1,Flex,8
+Tanner,1,1,0,1,-1,0,0,Fighter,9
+Messenger,1,0,2,0,0,0,1,Bard,8
+Barmaid,2,0,1,0,0,1,1,Bard,8
+Innkeeper,1,1,0,1,0,1,1,Bard,9
+Apprentice,3,0,0,0,1,0,1,Flex,8
+Child,1,-2,3,-2,-2,-2,-2,Flex,6

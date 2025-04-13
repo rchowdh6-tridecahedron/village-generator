@@ -1,0 +1,41 @@
+name,effect
+It's Raining,Ranged attacks have disadvantage this encounter
+Reinforcements Arrive,Spawn +1 standard enemy
+A Hidden Villager Joins,Draw an extra villager for this encounter
+Supplies Are Low,Weapons that use ammo start with half
+Enemy Reinforcements,"At the end of round 2, spawn 1d2 extra standard enemies"
+Trap Triggered,One random player starts the encounter prone
+Old Wounds Flare,All villagers start with -1 HP
+Divine Favor,One random villager gains +1 to all rolls this encounter
+Thick Fog,Enemies and players cannot attack at long range
+Village Child Wanders In,Spawn a child villager mid-encounter must be protected
+Enemy Distraction,All enemies suffer -1 to their first attack rolls
+Back Door Breach,Enemies enter from behind players start surrounded
+Spilled Oil,Area near the center is slick moving through it requires a Dexterity save
+Morale Surge,All villagers gain temporary +2 HP this encounter
+Something's Burning,A fire starts nearby spreads 1 square per round
+No Time to Rest,No healing allowed before this encounter begins
+Traps Laid by Locals,Players can trigger 1d2 traps that deal 1d6 to enemies
+False Alarm,There are no enemies just scared villagers hiding
+Enemy Infighting,Enemies attack each other on the first round
+Righteous Fury,First villager to fall gives all others +1 to attack rolls until end of encounter
+Ambush at Dusk,Enemies have advantage on their first attack roll
+Fog of War,Vision range is halved for all players
+Trapped in the Dark,One player starts the encounter with their equipment malfunctioning or missing
+Sudden Storm,Everyone must roll a Dexterity save or be knocked prone
+Poisoned Water,Any water source in the area poisons players on contact (1d6 damage)
+Collapsed Tunnel,One escape route or key access point is blocked
+Magical Disturbance,A strange magical aura prevents spellcasting or disrupts magic items
+Sudden Earthquake,All players must roll a Strength save or fall prone
+Enemy Infiltrator,One enemy is secretly a spy and may act against their own kind for one round
+Villager Betrayal,One villager secretly works for the enemy and sabotages the group
+Rats in the Walls,"The area is swarming with rats, causing distractions and giving enemies advantage in close combat"
+Illness Spreads,One villager or player begins the encounter with -1 HP (disease)
+Bad Weather,Ranged weapons malfunction -1 to all ranged attacks
+Defiled Ground,"Holy areas (temples, shrines) lose their effect during this encounter"
+Trapped Villager,"A villager is stuck in a trap, requiring assistance to free"
+Lost Supplies,A key item or weapon is lost or destroyed at the start of the encounter
+Dark Forces,Enemies gain +1 to all damage rolls for the first round
+Flash Flood,A rising flood begins anyone in lower ground must climb or take 1d6 water damage
+Hunted by Shadows,"One random villager or player is stalked by a shadowy force, taking 1d4 damage each round"
+Rituals Interrupted,"An enemy is in the middle of performing a ritual that buffs them stop it, or they become stronger"

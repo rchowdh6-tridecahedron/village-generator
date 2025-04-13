@@ -1,0 +1,7 @@
+enemy_type,health,strength,agility,constitution,intelligence,wisdom,perception,abilities
+Goblin,8,1,2,1,0,0,1,"Goblin Dagger Slash (1d6 piercing, needs 10 to hit); Goblin Sneak Attack (1d4, advantage on stealth)"
+Kobold,6,0,2,1,-1,0,2,"Kobold Spear Thrust (1d6 piercing, needs 12 to hit); Kobold Trap (sets trap, 1d4 damage on hit)"
+Goblin Archer,8,1,3,1,0,0,2,"Goblin Arrow Shot (1d6 piercing, needs 12 to hit); Goblin Dodge (bonus action to avoid attack, needs 15)"
+Kobold Shaman,7,-1,1,2,1,2,2,"Kobold Firebolt (1d6 fire, needs 14 to hit); Kobold Curse (debuffs target's strength, 1 round)"
+Goblin Berserker,12,2,1,2,0,-1,0,"Goblin Furious Strike (1d8 slashing, needs 10 to hit, bonus damage when below 5 HP)"
+Kobold Scout,6,0,3,1,0,0,3,"Kobold Stealth (advantage on stealth rolls); Kobold Spear Jab (1d4 piercing, needs 10 to hit)"

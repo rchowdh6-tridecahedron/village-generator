@@ -1,0 +1,10 @@
+name,race,class,health,strength,agility,constitution,intelligence,wisdom,perception,abilities
+Grimfang,Orc,Chieftain,20,3,1,3,0,-1,1,"Orc Great Axe Swing (2d6 slashing, needs 12 to hit); Orc Roar (Fear effect, all enemies within 10 ft must succeed on Wisdom saving throw DC 12 or become frightened for 1 round)"
+Stonefist,Ogre,Warleader,22,4,0,4,-1,-2,1,"Ogre Slam (2d8 bludgeoning, needs 13 to hit); Ogre Stomp (deals 1d6 bludgeoning to all within 5 ft, needs 14 to hit)"
+Blackscale,Lizardman,Captain,18,2,3,2,2,1,2,"Lizardman Spear Thrust (1d8 piercing, needs 12 to hit); Lizardman Quick Strike (2d6 slashing, needs 15 to hit, bonus attack on a successful dodge)"
+Razorclaw,Lizardman,Captain,19,2,3,2,2,1,2,"Lizardman Spear Thrust (1d8 piercing, needs 12 to hit); Lizardman Quick Strike (2d6 slashing, needs 15 to hit, bonus attack on a successful dodge)"
+Wargrip,Orc,Chieftain,21,4,0,4,-1,-1,2,"Orc Great Axe Swing (2d6 slashing, needs 12 to hit); Orc Roar (Fear effect, all enemies within 10 ft must succeed on Wisdom saving throw DC 12 or become frightened for 1 round)"
+Ironjaw,Ogre,Warleader,24,5,0,4,-1,-2,0,"Ogre Slam (2d8 bludgeoning, needs 13 to hit); Ogre Stomp (deals 1d6 bludgeoning to all within 5 ft, needs 14 to hit)"
+Redfang,Hobgoblin,General,16,3,2,2,1,1,2,"Hobgoblin Sword Slash (1d8 slashing, needs 12 to hit); Hobgoblin Tactical Strike (1d6 slashing, grants an ally +1 to hit on next turn)"
+Ironshield,Hobgoblin,General,17,3,2,2,1,1,2,"Hobgoblin Sword Slash (1d8 slashing, needs 12 to hit); Hobgoblin Tactical Strike (1d6 slashing, grants an ally +1 to hit on next turn)"
+Firestorm,Hobgoblin,General,18,3,2,2,1,1,3,"Hobgoblin Sword Slash (1d8 slashing, needs 12 to hit); Hobgoblin Tactical Strike (1d6 slashing, grants an ally +1 to hit on next turn); Hobgoblin Firebomb (1d6 fire, throws at a distance)"
