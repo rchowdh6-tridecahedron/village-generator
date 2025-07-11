@@ -17,7 +17,7 @@ def build_villager_deck(filepath, count):
     villagers = load_csv(filepath)
     selected = draw_random_items(villagers, count)
     selected.sort(key=lambda v: v['class'])  # Optional: Sort alphabetically by class
-    print(f"\n🧑‍🌾 Villager Deck ({len(selected)} cards):")
+    print(f"\nVillager Deck ({len(selected)} cards):")
     for v in selected:
         print(f"- {v['name']} ({v['class']}) | HP: {v['health']} | "
               f"STR: {v['strength']} AGI: {v['agility']} CON: {v['constitution']} "
@@ -28,7 +28,7 @@ def build_villager_deck(filepath, count):
 def build_enemy_deck(filepath, count):
     enemies = load_csv(filepath)
     selected = draw_random_items(enemies, count)
-    print(f"\n👹 Enemy Deck ({len(selected)} cards):")
+    print(f"\nEnemy Deck ({len(selected)} cards):")
     for e in selected:
         print(f"- {e['enemy_name']} ({e['enemy_type']}) | HP: {e['health']} | "
               f"STR: {e['strength']} AGI: {e['agility']} CON: {e['constitution']} "
@@ -39,7 +39,7 @@ def build_enemy_deck(filepath, count):
 def build_boss_deck(filepath, count):
     bosses = load_csv(filepath)
     selected = draw_random_items(bosses, count)
-    print(f"\n👑 Boss Deck ({len(selected)} cards):")
+    print(f"\nBoss Deck ({len(selected)} cards):")
     for b in selected:
         print(f"- {b['name']} ({b['race']} {b['class']}) | HP: {b['health']} | "
               f"STR: {b['strength']} AGI: {b['agility']} CON: {b['constitution']} "
@@ -61,7 +61,7 @@ def build_weapon_deck(filepath, count):
 def build_basic_encounter_deck(filepath, count):
     encounters = load_csv(filepath)
     selected = draw_random_items(encounters, count)
-    print(f"\n📜 Basic Encounter Deck ({len(selected)} cards):")
+    print(f"\nBasic Encounter Deck ({len(selected)} cards):")
     for e in selected:
         print(f"- {e['title']}: {e['enemy_rule']} | Twists: {e['plot_twists']}")
     return selected
@@ -70,7 +70,7 @@ def build_basic_encounter_deck(filepath, count):
 def build_twist_deck(filepath, count):
     twists = load_csv(filepath)
     selected = draw_random_items(twists, count)
-    print(f"\n🌀 Twist Deck ({len(selected)} cards):")
+    print(f"\nTwist Deck ({len(selected)} cards):")
     for t in selected:
         print(f"- {t['title']}: {t['description']}")
     return selected
@@ -79,7 +79,7 @@ def build_twist_deck(filepath, count):
 def build_final_encounter_deck(filepath, count):
     final_encounters = load_csv(filepath)
     selected = draw_random_items(final_encounters, count)
-    print(f"\n🔥 Final Encounter Deck ({len(selected)} cards):")
+    print(f"\nFinal Encounter Deck ({len(selected)} cards):")
     for f in selected:
         print(f"- {f['title']}: {f['enemy_rule']} | Twists: {f['plot_twists']}")
     return selected
@@ -122,7 +122,7 @@ def parse_dice(dice_str):
 
 # ---------- Main ----------
 def main():
-    print("📦 Deck Builder - Village Defense")
+    print("Deck Builder - Village Defense")
 
     # Paths to your CSVs
     villager_file = 'results/villagers.csv'
@@ -163,13 +163,13 @@ def main():
         'final_encounter': final_encounter_deck
     }
 
-    print("\n✅ All decks loaded. Type 'help' for commands.\n")
+    print("\nAll decks loaded. Type 'help' for commands.\n")
 
     while True:
         cmd = input(">> ").strip().lower()
 
         if cmd in ['exit', 'quit']:
-            print("👋 Exiting game.")
+            print("Exiting game.")
             break
 
         elif cmd == 'help':
@@ -194,19 +194,19 @@ def main():
                 else:
                     draw_count = parse_dice(dice_or_number)
                     if draw_count is None:
-                        print(f"❌ Invalid dice notation: '{dice_or_number}'")
+                        print(f"Invalid dice notation: '{dice_or_number}'")
                         continue
             else:
-                print("❌ Usage: draw [deck] [number|XdY]")
+                print("Usage: draw [deck] [number|XdY]")
                 continue
 
             if deck_name not in deck_state:
-                print(f"❌ Deck '{deck_name}' not found.")
+                print(f"Deck '{deck_name}' not found.")
                 continue
 
             deck = deck_state[deck_name]
             if not deck:
-                print(f"⚠️ Deck '{deck_name}' is empty.")
+                print(f"Deck '{deck_name}' is empty.")
                 continue
 
             draw_count = min(draw_count, len(deck))
@@ -217,18 +217,18 @@ def main():
         elif cmd.startswith("view "):
             parts = cmd.split(maxsplit=1)
             if len(parts) != 2:
-                print("❌ Usage: view [deck]")
+                print("Usage: view [deck]")
                 continue
 
             deck_name = parts[1]
             if deck_name not in deck_state:
-                print(f"❌ Deck '{deck_name}' not found.")
+                print(f"Deck '{deck_name}' not found.")
                 continue
 
             deck = deck_state[deck_name]
             print(f"🔎 {deck_name} ({len(deck)} cards remaining):")
             if not deck:
-                print("⚠️ Deck is empty.")
+                print("Deck is empty.")
             for card in deck:
                 print_card(card, deck_name)
         elif cmd.startswith("reshuffle "):
@@ -248,7 +248,7 @@ def main():
             elif deck_name == 'final_encounter':
                 deck_state['final_encounter'] = build_final_encounter_deck(final_encounters_file, fe_count)
             else:
-                print("❌ Unknown deck.")
+                print("Unknown deck.")
                 continue
             print(f"🔁 Reshuffled {deck_name}.")
 
@@ -258,7 +258,7 @@ def main():
                 print(f" - {name} ({len(deck_state[name])} remaining)")
 
         else:
-            print("❓ Unknown command. Type 'help' for available options.")
+            print("Unknown command. Type 'help' for available options.")
     
     
 
